@@ -1,0 +1,147 @@
+body{
+  background-color: rgb(255, 246, 246); 
+  height: 700px;
+  overflow:scroll;
+}
+.parent{
+   display: inline-flex;
+}
+.container{
+   background-color: rgb(42, 39, 39);
+   display: inline-block;
+   width: 270PX;
+   height: 1200px;
+}
+img {
+   transition: 1s ease-out;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-top: 30px;   
+   margin-left: 30px;   
+}
+img:hover{
+   transition: 2s ease-in-out;
+   border-radius: 10px;
+}
+.para{
+   margin-left: 30px;
+   color: rgba(255, 255, 255, 0.716);
+   
+}
+.pa{
+   margin-left: 38px;
+}
+.heading{
+   display: inline-block;
+   font-size: 25px;
+   line-height: 1px;
+   color:white;
+   margin-left: 4px;
+
+}
+a{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.716);
+}
+.container2{
+   display: flexbox;
+   text-align: left;
+   width: 680px;
+   height: 1200px;
+   margin-left: 30px;
+   
+}
+.img1{
+   display: inline-block;
+   width:auto;
+   height: 20px;
+   margin: 0px;
+   border-radius: 10px;   
+}
+.heading1{
+   font-family:monospace;
+   font-size: 25px;
+   margin-bottom: 0px;
+}
+.name{
+   font-size: 70px;
+   margin: 0px;
+   font-family: fantasy;
+}
+.name:hover{
+   transition: 2s;
+   display: inline-block;
+   animation-name:inherit;
+   background:linear-gradient(0.55turn,Violet, Indigo, 
+   Blue, Green, Yellow, Orange,Red );
+   color: white;
+   padding:10px;
+}
+.img2{
+   display: inline-flex;
+   width:auto;
+   height: 20px;
+   margin: 0px;
+   border-radius: 10px;  
+   margin-right: 2px; 
+   margin-bottom: 0px;
+}
+.heading2{
+   display: inline-flex;
+   font-family:monospace;
+   font-size: 25px;
+   margin-bottom: 0px;
+   margin-left: 15px;
+}
+.ud2{
+   margin-left: 40px;
+}
+.list1{
+   list-style-type: circle;
+   margin-left:1.5px;
+   padding-inline-start: 20px;
+}
+.lp2{
+   margin-left: 17px;
+}
+.list2{
+   list-style-type: circle;
+   margin-left:1.5px;
+   padding-inline-start: 20px;
+}
+.progress{
+   background-color: rgb(215, 215, 247);
+   width: 500px;
+   border-radius: 250px;
+}
+.skill1{
+   width: 350px;
+   background-color: rgb(82, 187, 248);
+   border-radius: 5px;
+   text-align: right;
+}
+.skill2{
+   width: 320px;
+   background-color: rgb(82, 187, 248);
+   border-radius: 5px;
+   text-align: right;
+}
+.skill3{
+   width: 350px;
+   background-color: rgb(82, 187, 248);
+   border-radius: 5px;
+   text-align: right;
+}
+.skill4{
+   width: 300px;
+   background-color: rgb(82, 187, 248);
+   border-radius: 5px;
+   text-align: right;
+}
+.skill5{
+   width: 250px;
+   background-color: rgb(82, 187, 248);
+   border-radius: 5px;
+   text-align: right;
+}
